@@ -1,0 +1,23 @@
+{
+  "name": "Blade redirector",
+  "description": "Redirect from blade.nagaokaut.ac.jp's ruby-core and ruby-dev mailing list archive that's no longer available to blade.ruby-lang.org.",
+  "version": "0.0.1",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": [
+        "http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-core/*",
+        "http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-dev/*"
+      ],
+      "js": [
+        "src/main.ts"
+      ]
+    }
+  ],
+  "icons": {
+    "16": "images/icon16.png",
+    "32": "images/icon32.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  }
+}
