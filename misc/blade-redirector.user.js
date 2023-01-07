@@ -6,8 +6,8 @@
 // @match        http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-core/*
 // @match        http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-dev/*
 // @icon         https://avatars.githubusercontent.com/u/4487291?v=4
-// @updateURL    https://example.org
-// @downloadURL  https://example.org
+// @updateURL    https://github.com/unasuke/blade-redirector/raw/main/misc/blade-redirector.user.js
+// @downloadURL  https://github.com/unasuke/blade-redirector/raw/main/misc/blade-redirector.user.js
 // @supportURL   https://github.com/unasuke/blade-redirector
 // ==/UserScript==
 
