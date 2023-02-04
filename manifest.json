@@ -7,7 +7,8 @@
     {
       "matches": [
         "http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-core/*",
-        "http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-dev/*"
+        "http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-dev/*",
+        "http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-list/*"
       ],
       "js": [
         "src/main.ts"

@@ -5,6 +5,7 @@
 // @author       unasuke (Yusuke Nakamura)
 // @match        http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-core/*
 // @match        http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-dev/*
+// @match        http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-list/*
 // @icon         https://avatars.githubusercontent.com/u/4487291?v=4
 // @updateURL    https://github.com/unasuke/blade-redirector/raw/main/misc/blade-redirector.user.js
 // @downloadURL  https://github.com/unasuke/blade-redirector/raw/main/misc/blade-redirector.user.js
@@ -26,7 +27,8 @@
 
   if (
     location.startsWith("/cgi-bin/scat.rb/ruby/ruby-dev/") ||
-    location.startsWith("/cgi-bin/scat.rb/ruby/ruby-core/")
+    location.startsWith("/cgi-bin/scat.rb/ruby/ruby-core/") ||
+    location.startsWith("/cgi-bin/scat.rb/ruby/ruby-list/")
   ) {
     const newPath = location.replace("/cgi-bin/scat.rb/ruby/", "");
     const newUrl = `https://blade.ruby-lang.org/${newPath}`;
