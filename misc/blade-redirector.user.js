@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Blade ruby mailing list archive redirector
-// @version      0.1.0
+// @version      0.2.0
 // @description  Redirect from blade.nagaokaut.ac.jp's ruby-core and ruby-dev mailing list archive that's no longer available to blade.ruby-lang.org that's the alternative.
 // @author       unasuke (Yusuke Nakamura)
 // @match        http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-core/*
