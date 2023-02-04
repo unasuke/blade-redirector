@@ -11,7 +11,8 @@
 
   if (
     location.startsWith("/cgi-bin/scat.rb/ruby/ruby-dev/") ||
-    location.startsWith("/cgi-bin/scat.rb/ruby/ruby-core/")
+    location.startsWith("/cgi-bin/scat.rb/ruby/ruby-core/") ||
+    location.startsWith("/cgi-bin/scat.rb/ruby/ruby-list/")
   ) {
     const newPath = location.replace("/cgi-bin/scat.rb/ruby/", "");
     const newUrl = `https://blade.ruby-lang.org/${newPath}`;
@@ -21,7 +22,7 @@
     }, 500);
 
     setTimeout(() => {
-      // window.location.assign(newUrl);
+      window.location.assign(newUrl);
     }, 3500);
   }
 })();
